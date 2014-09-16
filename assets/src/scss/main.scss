@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway|Montserrat+Subrayada);
+
+.vertical-align {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 45%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#splash a {
+	text-decoration: none;
+	:hover {
+		color: #ff3d95;
+		transition: .7s;
+	}
+}
+
+h1 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: black;
+	font-size: 6rem;
+	margin-bottom: 0px;
+	text-align: center;
+	font-weight: lighter;
+	transition: 1s;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 3rem;
+	letter-spacing: 5px;
+	margin-top: 0px;
+	text-align: center;
+}
